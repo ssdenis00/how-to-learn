@@ -1,4 +1,4 @@
-p, h1, h2, h3, h4, h5, h6, a {
+p, h1, h2, h3, h4, h5, h6, a, img, ul, li {
   margin: 0;
   padding: 0;
 }
@@ -275,3 +275,67 @@ p, h1, h2, h3, h4, h5, h6, a {
   z-index: 1;
 }
 
+.footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+  height: 1px; /*Для того чтобы работало height: 100%*/
+  padding: 60px 0 40px 0;
+  color: white;
+}
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+}
+.footer-column {
+}
+.footer-content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+  background-size: cover;
+  background-position: center;
+  height: 35px;
+}
+.author {
+  line-height: 25px;
+  font-size: 18px;
+  margin: 18px 0;
+}
+.footer-content_info {
+  
+}
+.footer-column_heading {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.list {
+
+}
+.footer-column_link {
+  list-style: none;
+  
+}
+.footer_link {
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
+}
+.footer-content_social {
+  margin-bottom: 16px;
+}
+
+.footer__social_logo {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  margin-bottom: -2px;
+}
