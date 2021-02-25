@@ -38,7 +38,9 @@ p, h1, h2, h3, h4, h5, h6, a, img, ul, li {
   line-height: 1.2;
   font-weight: normal;
 }
+/*стиль для заголовков 3го типа*/
 
+/*стили для хедера*/
 .header {
   position: relative;
   display: flex;
@@ -47,7 +49,6 @@ p, h1, h2, h3, h4, h5, h6, a, img, ul, li {
   max-height: 756px;
   background: #f2f2f2;
   overflow: hidden;
-  /* выше установили ограничения для секции */
 }
 
 
@@ -116,6 +117,7 @@ p, h1, h2, h3, h4, h5, h6, a, img, ul, li {
 }
 /*картинка в шапке квадрат*/
 
+/*стили для 2го блока*/
 .description {
   display: flex;
   justify-content: center;
@@ -147,6 +149,7 @@ p, h1, h2, h3, h4, h5, h6, a, img, ul, li {
   margin-bottom: 0;
 }
 
+/*стили для 2го блока*/
 .digits {
   display: flex;
   justify-content: center;
@@ -194,6 +197,7 @@ p, h1, h2, h3, h4, h5, h6, a, img, ul, li {
   margin-bottom: 0;
 }
 
+/*стили для 3го блока*/
 .feynman { 
   position: relative;
   min-height: 885px;
@@ -237,6 +241,7 @@ p, h1, h2, h3, h4, h5, h6, a, img, ul, li {
   background-size: cover;
 }
 
+/*стили для 4го блока*/
 .kaufman {
   display: flex;
   justify-content: center;
@@ -266,7 +271,6 @@ p, h1, h2, h3, h4, h5, h6, a, img, ul, li {
   color: white;
 }
 
-/*элемент с модификатором вида ключ-значение */
 .section-table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -275,62 +279,60 @@ p, h1, h2, h3, h4, h5, h6, a, img, ul, li {
   z-index: 1;
 }
 
+/*стили для футера*/
 .footer {
   background-color: #1f1f1f;
-  min-height: 350px;
-  height: 1px; /*Для того чтобы работало height: 100%*/
   padding: 60px 0 40px 0;
   color: white;
 }
+
 .footer-columns {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   width: 90%;
-  height: 100%;
 }
+
 .footer-column {
+  min-height: 250px;
 }
+
 .footer-content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
 }
+
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
   background-size: cover;
   background-position: center;
   height: 35px;
 }
+
 .author {
   line-height: 25px;
   font-size: 18px;
   margin: 18px 0;
 }
-.footer-content_info {
-  
-}
+
 .footer-column_heading {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 20px;
 }
-.list {
 
-}
 .footer-column_link {
   list-style: none;
   
 }
+
 .footer_link {
   font-size: 18px;
   line-height: 30px;
   text-decoration: none;
   color: white;
-}
-.footer-content_social {
-  margin-bottom: 16px;
 }
 
 .footer__social_logo {
