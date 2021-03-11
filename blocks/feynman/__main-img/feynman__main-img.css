@@ -1,0 +1,11 @@
+.feynman__main-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  width: 867px;
+  height: 637px;
+  background-image: url('../../../images/feynman.png');
+  background-position: center;
+  background-size: cover;
+}
