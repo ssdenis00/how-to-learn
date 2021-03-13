@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 790px;
-  background-color:  #f2f2f2;
+  min-height: 790px;
   padding: 80px 0 0 0;
+  background: url('../../images/feynman.png') no-repeat #f2f2f2 left bottom;
 }
