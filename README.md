@@ -1,5 +1,7 @@
 # how-to-learn
 
+https://ssdenis00.github.io/how-to-learn/
+
 ## Это информативный сайт включающий в себя блоки:
 
 * Header
